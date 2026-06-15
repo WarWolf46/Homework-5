@@ -6,11 +6,15 @@ public class Main {
         System.out.println("Задача №1");
         int clientOS = 0; // 0 — iOS, 1 — Android
 
-        if (clientOS == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS == 1) {
-            System.out.println("Установите версию приложения для Android по ссылке");
-        }
+       // Задача 1
+        System.out.println("Задача №1");
+       int clientOS = 0; // 0 — iOS, 1 — Android
+
+       if (clientOS == 0) {
+          System.out.println("Установите версию приложения для iOS по ссылке");
+     } else {
+        System.out.println("Установите версию приложения для Android по ссылке");
+ }
 
 
         // Задача 2
